@@ -18,6 +18,7 @@ Mod Name : ZPCIS Revenge Release Date: 13.11.2026
 - can now choose a starting strain
 - new script / dialogue
 - new abilites
+- new evolutions
 - new enemy types
 - fixed most glitches afair (all of the ones in the original game)
 - allies now have synerges depending on who you decide to use
@@ -27,6 +28,7 @@ Mod Name : ZPCIS Revenge Release Date: 13.11.2026
 | Easy  | 115% scaling  |No|
 | Normal  | 125% scaling (base game)  |No|
 | Heroic  |  140% scaling |No|
+I do not recommend you to start on Heroic difficulty. If you are a Sonny veteran go for it :D
 ## Download
 File will be under the relase section
 The safe file creator is in the main branch, downloadable. 
