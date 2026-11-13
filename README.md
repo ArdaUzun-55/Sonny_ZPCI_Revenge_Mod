@@ -31,7 +31,7 @@ Mod Name : ZPCIS Revenge Release Date: 13.11.2026
 File will be under the relase section
 The safe file creator is in the main branch, downloadable. 
 ## How to use python files
-go to cmd type X:  (where X is the storage if its in D:\SonnySafefileCreator\ then type D:), then type cd: [where the file is] and then 
+go to cmd type X:  (where X is the storage if its in D:\SonnySafefileCreator\ then type D:), then type cd [where the file is] and then 
 execute the file by writing python safefilecreator.py -> it expects input which is quite easy to figure out.
 ## Changelog
 v1.0.0 - Initial release
