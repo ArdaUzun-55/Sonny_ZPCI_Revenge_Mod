@@ -4,7 +4,7 @@ Some mechanics are inspired from Elden ring and some from Marvel Rivals.
 
 ZPCIS Revenge
 
-Mod Name : ZPCIS Revenge Release Date: TBA
+Mod Name : ZPCIS Revenge Release Date: 13.11.2026
 
 ## New Things ##
 
@@ -29,6 +29,7 @@ Mod Name : ZPCIS Revenge Release Date: TBA
 | Heroic  |  140% scaling |No|
 ## Download
 File will be under the relase section
+The safe file creator is in the main branch, downloadable. 
 Changelog
 v1.0.0 - Initial release
 
