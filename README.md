@@ -23,6 +23,12 @@ What? Why are these bosses now having 2 phases? Enhanced RNA! Be careful!
 - new enemy types
 - fixed most glitches afair (all of the ones in the original game)
 - allies now have synerges depending on who you decide to use
+## Difficulty Table 
+| Difficulty | Difference in Stats |Changed Fights?|
+| ------------- | ------------- | ------------- |
+| Easy  | 110% scaling  |No|
+| Normal  | 125% scaling (base game)  |No|
+| Heroic  |  140% scaling |No|
 ## Download
 File will be under the relase section
 Changelog
