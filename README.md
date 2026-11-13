@@ -26,7 +26,7 @@ What? Why are these bosses now having 2 phases? Enhanced RNA! Be careful!
 ## Difficulty Table 
 | Difficulty | Difference in Stats |Changed Fights?|
 | ------------- | ------------- | ------------- |
-| Easy  | 110% scaling  |No|
+| Easy  | 115% scaling  |No|
 | Normal  | 125% scaling (base game)  |No|
 | Heroic  |  140% scaling |No|
 ## Download
