@@ -5,9 +5,7 @@ Some mechanics are inspired from Elden ring and some from Marvel Rivals.
 ZPCIS Revenge
 
 Mod Name : ZPCIS Revenge Release Date: TBA
-About this Mod
 
-What? Why are these bosses now having 2 phases? Enhanced RNA! Be careful!
 ## New Things ##
 
 - New mechanics means new fights. Its a rework and it offers a variety of things including:
