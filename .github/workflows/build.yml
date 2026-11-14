@@ -12,6 +12,8 @@ jobs:
             artifact: safefilecreator-linux
           - os: windows-latest
             artifact: safefilecreator-windows
+          - os: macos-latest
+            artifact: safefilecreator-macos
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v5
