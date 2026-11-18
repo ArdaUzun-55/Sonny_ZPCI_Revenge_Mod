@@ -1,32 +1,28 @@
 classes = [1,2,3,4,5,6]
 zones = [1,2,3,4,5,6,7,8,9]
-x = input("Which Zone? (only above 0)\n").strip()
-if not x.isdigit() or int(x) not in zones:
-    raise SystemExit("invalid zone")
-if(int(x) in {3,4,5}):
-  y = input("First Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
-  if not y.isdigit() or int(y) not in classes:
-    raise SystemExit("invalid class")
-  z = input("Second Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
-  if not z.isdigit() or int(z) not in classes:
-    raise SystemExit("invalid class")
-elif(int(x) > 5):
-  y = input("First Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
-  if not y.isdigit() or int(y) not in classes:
-    raise SystemExit("invalid class")
-  z = input("Second Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
-  if not z.isdigit() or int(z) not in classes:
-    raise SystemExit("invalid class")
-  s = input("Third Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
-  if not s.isdigit() or int(s) not in classes:
-    raise SystemExit("invalid class")
-elif(int(x) in {1,2}):
-  y = input("Which Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
-  if not y.isdigit() or int(y) not in classes:
-    raise SystemExit("invalid class")
-if(x == ""):
-    content = "1$2$60$1$28$8$10$9$0$16096$29$0$15$Map$True$False$True$False$S1#UP#True#UP#True#UP#28#UP#1553#UP#False#I#Z9_I3#I#25#I#1157684476#I#0#I#True#IC#False#I#Z9_I8#I#25#I#1977273899#I#0#I#True#IC#False#I#Z9_I12#I#25#I#1535300818#I#0#I#True#IC#False#I#M9#I#22#I#1242069735#I#0#I#False#UM#S2#UP#True#UP#True#UP#28#UP#1596#UP#False#I#Z9_I2#I#25#I#2087304638#I#0#I#False#IC#False#I#Z9_I8#I#25#I#1977273899#I#0#I#False#IC#False#I#Z9_I10#I#25#I#1673651211#I#0#I#False#IC#False#I#Z9_I14#I#25#I#692433619#I#0#I#False#UM#E1#UP#True#UP#True#UP#28#UP#1452#UP#False#I#B9#I#25#I#1232828434#I#0#I#False#IC#False#I#Z9_I8#I#25#I#1977273899#I#0#I#False#IC#False#I#Z9_I9#I#25#I#1025081186#I#0#I#False#IC#False#I#Z9_I13#I#25#I#398744628#I#0#I#False#UM#E2#UP#False#UP#True#UP#28#UP#1466#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#UM#E3#UP#False#UP#True#UP#28#UP#1504#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False$T1#AT1#1#LV#1#AT2#3#LV#1#AT2#2#LV#1#AT2#5#LV#1#AT2#9#LV#1#ABM#T2#AT1#*NULL*#ABM#T3#AT1#*NULL*#ABM#T4#AT1#*NULL*#ABM#T5#AT1#*NULL*#ABM#T6#AT1#*NULL*$SP_STRIKE#LV#1#ABG#SP_REGENERATE#LV#1#ABG#SP_CRIPPLE#LV#1#ABG#SP_WOUND#LV#1$Combat*T*False*X*Heal*T*False*X*EnterFight*T*False*X*LevelUp*T*False*X*BuyItem*T*False*X*EquipItem*T*False*X*Evolve*T*False*X*EnterZone1*T*False*X*EnterZone2*T*False*X*EnterZone3*T*False*X*EnterZone4*T*False*X*EnterZone5*T*False*X*EnterZone6*T*False*X*EnterZone7*T*False*X*EnterZone8*T*False$Z1_A*S*Z1_0_1*S*Z1_0_2*S*Z1_G*S*Z1_0_3*S*Z1_0_4*S*Z1_1_0*S*Z1_2_0*S*Z1_2_2*S*Z1_F*S*Z1_b*S*Z1_3_0*S*Z1_3_1*S*Z1_4_0*S*Z1_4_P*S*Z1_D*S*Z2_A*S*Z2_1_0*S*Z2_1_1*S*Z2_B*S*Z2_2_0*S*Z2_2_2*S*Z2_C*S*Z2_2_1*S*Z1_E*S*Z2_3_0*S*Z2_4_0*S*Z2_5_0*S*Z2_5_1*S*Z2_D*S*Z2_7_0*S*Z2_8_0*S*Z2_8_1*S*Z2_8_2*S*Z2_8_3*S*Z2_E*S*Z3_0_0*S*Z3_1_0*S*Z3_A*S*Z3_2_0*S*Z3_2_1*S*Z3_E*S*Z3_B*S*Z3_3_0*S*Z3_C*S*Z3_4_0*S*Z3_4_1*S*Z3_5_0*S*Z3_6_0*S*Z3_7_0*S*Z3_8_0*S*Z3_8_1*S*Z3_F*S*Z3_D*S*Z4_A*S*Z4_0_0*S*Z4_0_1*S*Z4_1_0*S*Z4_1_1*S*Z4_3_0*S*Z4_4_0*S*Z4_4_1*S*Z4_6_0*S*Z4_6_1*S*Z4_B*S*Z4_9_0*S*Z4_9_1*S*Z4_C*S*Z5_A*S*Z5_B*S*Z5_0_0*S*Z5_1_0*S*Z5_X_X_5*S*Z5_X_X_6*S*Z5_C*S*Z5_2_0*S*Z5_3_0*S*Z5_3_1*S*Z5_4_0*S*Z5_6_0*S*Z5_6_1*S*Z5_7_0*S*Z5_7_1*S*Z5_7_2*S*Z5_9_0*S*Z5_9_6*S*Z5_9_1*S*Z5_9_3*S*Z5_9_4*S*Z5_9_5*S*Z5_9_2*S*Z5_D*S*Z6_A*S*Z6_B*S*Z6_0_0*S*Z6_1_0*S*Z6_2_0*S*Z6_C*S*Z6_3_0*S*Z6_4_0*S*Z6_4_1*S*Z6_D*S*Z6_E*S*Z6_F*S*Z6_9_0*S*Z6_9_3*S*Z6_9_4*S*Z6_9_5*S*Z6_9_6*S*Z6_9_1*S*Z6_9_2*S*Z6_G*S*Z7_A*S*Z7_0_0*S*Z7_GS_0*S*Z7_GS_1*S*Z7_2_1*S*Z7_2_0*S*Z7_2_2*S*Z7_3_0*S*Z7_5_0*S*Z7_6_0*S*Z7_8_0*S*Z7_9_0*S*Z7_9_1*S*Z7_BB_0*S*Z7_BB_1*S*Z7_BB_3*S*Z7_BB_4*S*Z7_BB_5*S*Z7_BB_2*S*Z7_B*S*Z8_A*S*Z8_0_0*S*Z8_0_1*S*Z8_B*S*Z8_2_0*S*Z8_2_1*S*Z8_2_2*S*Z8_2_7*S*Z8_2_8*S*Z8_2_4*S*Z8_2_5*S*Z8_2_6*S*Z8_3_0*S*Z8_3_1*S*Z8_5_0*S*Z8_5_1*S*Z8_5_2*S*Z8_5_3*S*Z8_5_4*S*Z8_6_0*S*Z8_6_1*S*Z8_8_0*S*Z8_8_1*S*Z8_8_2*S*Z8_8_3*S*Z8_8_4*S*Z8_10_0*S*Z8_10_1*S*Z8_10_2*S*Z8_10_3*S*Z8_10_4*S*Z8_C*S*Z9_A*S*Z9_0_0*S*Z9_1_0*S*Z9_1_1*S*Z9_1_2*S*Z9_1_3*S*Z9_1_4*S*Z9_1_5*S*Z9_1_6*S*Z9_2_0*S*Z9_3_0*S*Z9_5_0*S*Z9_5_1*S*Z9_6_0*S*Z9_6_1*S*Z9_7_0*S*Z9_7_1*S*Z9_7_2*S*Z9_9_0*S*Z9_B*S*Z9_C*S*Z9_D*S*Z9_11_0*S*Z9_11_1*S*Z9_11_2*S*Z9_12_0*S*Z9_12_1*S*Z9_12_2*S*Z9_13_0*S*Z9_13_1*S*Z9_13_3*S*Z9_13_2*S*Z9_14_0*S*Z9_14_2*S*Z9_14_1*S*Z9_14_3*S*Z9_15_0*S*Z9_15_1*S*Z9_15_2*S*Z9_15_4*S*Z9_15_5*S*Z9_15_6*S*EPILOGUE$T1#ABG#T3#ABG#T4$SP_BLOODBATHLevel1$False#I#B3#I#9#I#1781448783#I#0#I#False#IC#False#I#B4#I#12#I#529192190#I#0#I#False#IC#False#I#Z4_ID0#I#14#I#1363093453#I#0#I#False#IC#False#I#M6#I#17#I#214380719#I#0#I#False#IC#False#I#B6#I#18#I#1618280191#I#0#I#False#IC#False#I#Z5_I3#I#17#I#480415914#I#0#I#False#IC#False#I#B5#I#15#I#1569725359#I#0#I#False#IC#False#I#B7#I#22#I#1697261108#I#0#I#False#IC#False#I#M7#I#18#I#1092662009#I#0#I#False#IC#False#I#Z8_I4#I#24#I#2049810518#I#0#I#False#IC#False#I#Z8_I3#I#23#I#881908995#I#0#I#True#IC#False#I#M5#I#15#I#1148370217#I#0#I#False#IC#False#I#M10#I#24#I#2034531927#I#1#I#False#IC#False#I#Z9_ID2#I#25#I#1390292572#I#0#I#False#IC#False#I#Z9_ID4#I#28#I#1650137142#I#0#I#True#IC#False#I#Z9_I15#I#25#I#1416040368#I#0#I#False#IC#False#I#B8#I#23#I#842650842#I#5#I#False#IC#False#I#Z9_ID0#I#25#I#406755493#I#0#I#False#IC#False#I#M8#I#20#I#1426900958#I#0#I#False$HEROIC#ABG#$T1#ABG#$False$True$"
-elif(x == "1"):
+chosenClasses = []
+def AskClass(label):
+  while True:
+     d = input(f"{label} Class? Physical = 1, Fire = 2,Nature = 3, Frost = 4, Lightning = 5 Shadow = 6\n").strip()
+     if  d.isdigit() and int(d)  in classes:
+      if d in chosenClasses:
+         print("Bruh u cant have duplicate classes")
+         continue
+      chosenClasses.append(d)
+      return d
+     print("invalid class, try again")
+def WhichZone():
+  while True:
+    x = input("Which Zone? (only above 0)\n").strip()
+    if x.isdigit() and int(x)  in zones:
+      return x
+    print("invalid zone, try again")
+   
+x = WhichZone()
+y = AskClass("First")
+z = AskClass("Second") if int(x) > 2 else ""
+s = AskClass("Third") if int(x) > 5 else ""
+if(x == "1"):
    content = "1$1$60$1$4$1$0$1$0$151$1$0$15$Map$True$False$False$False$S1#UP#True#UP#True#UP#4#UP#460#UP#False#I#B1#I#3#I#637567801#I#0#I#False#IC#False#I#Z0_I1#I#3#I#2039270247#I#0#I#True#IC#False#I#Z0_I2#I#3#I#41564064#I#0#I#True#IC#False#I#Z0_I3#I#3#I#1803348291#I#0#I#True#UM#S2#UP#False#UP#False#UP#4#UP#460#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#UM#E1#UP#False#UP#False#UP#4#UP#460#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#UM#E2#UP#False#UP#False#UP#4#UP#460#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#UM#E3#UP#False#UP#False#UP#4#UP#460#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False$T1#AT1#*NULL*#ABM#T2#AT1#*NULL*#ABM#T3#AT1#*NULL*#ABM#T4#AT1#*NULL*#ABM#T5#AT1#1#LV#1#AT2#8#LV#1#AT2#3#LV#1#AT2#5#LV#1#ABM#T6#AT1#*NULL*$SL_ELECTROBOLT#LV#1#ABG#SL_DISRUPT#LV#1#ABG#SL_ARCFLASH#LV#1$Combat*T*False*X*Heal*T*False*X*EnterFight*T*False*X*LevelUp*T*False*X*BuyItem*T*False*X*EquipItem*T*False*X*Evolve*T*False*X*EnterZone1*T*False*X*EnterZone2*T*False*X*EnterZone3*T*False*X*EnterZone4*T*False*X*EnterZone5*T*False*X*EnterZone6*T*False*X*EnterZone7*T*False*X*EnterZone8*T*False$Z1_A*S*Z1_0_1*S*Z1_0_2*S*Z1_G*S*Z1_0_3*S*Z1_0_4*S*Z1_1_0*S*Z1_2_0*S*Z1_2_2*S*Z1_F*S*Z1_b*S*Z1_3_0*S*Z1_3_1*S*Z1_4_0*S*Z1_4_P*S*Z1_D*S*Z2_A*S*Z2_1_0$T"+ y +"$SL_FORCEFIELDLevel1$False#I#Z0_I0#I#3#I#207938837#I#0#I#True#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False$HEROIC#ABG#$T" + y + "#ABG#$True$False$"
 elif(x== "2"):
    content = "1$0$60$1$7$2$0$2$0$969$1$0$15$Map$True$False$False$False$S1#UP#True#UP#True#UP#7#UP#1548#UP#False#I#B1#I#3#I#637567801#I#0#I#False#IC#False#I#Z1_I5#I#7#I#1948371166#I#0#I#True#IC#False#I#Z1_ID3#I#5#I#187120071#I#0#I#False#IC#False#I#Z1_ID4#I#5#I#469523686#I#0#I#True#UM#S2#UP#True#UP#True#UP#7#UP#1548#UP#False#I#S20#I#4#I#214118198#I#0#I#False#IC#False#I#Z1_ID2#I#5#I#1281644852#I#0#I#False#IC#False#I#Z1_I6#I#7#I#1174455275#I#0#I#True#IC#False#I#S23#I#4#I#399289816#I#0#I#False#UM#E1#UP#False#UP#False#UP#7#UP#1548#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#UM#E2#UP#False#UP#False#UP#7#UP#1548#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#UM#E3#UP#False#UP#False#UP#7#UP#1548#UP#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False#IC#False#I##I#1#I#-1#I#0#I#False$T1#AT1#*NULL*#ABM#T2#AT1#*NULL*#ABM#T3#AT1#*NULL*#ABM#T4#AT1#*NULL*#ABM#T5#AT1#1#LV#1#AT2#8#LV#1#AT2#3#LV#1#AT2#5#LV#1#AT2#9#LV#1#AT2#7#LV#1#AT2#12#LV#1#ABM#T6#AT1#*NULL*$SL_ELECTROBOLT#LV#1#ABG#SL_DISRUPT#LV#1#ABG#SL_ARCFLASH#LV#1#ABG#SL_SHOCKWAVE#LV#1#ABG#SL_WARPSTRIKE#LV#1#ABG#SL_ENERGIZE#LV#1$Combat*T*False*X*Heal*T*False*X*EnterFight*T*False*X*LevelUp*T*False*X*BuyItem*T*False*X*EquipItem*T*False*X*Evolve*T*False*X*EnterZone1*T*False*X*EnterZone2*T*False*X*EnterZone3*T*False*X*EnterZone4*T*False*X*EnterZone5*T*False*X*EnterZone6*T*False*X*EnterZone7*T*False*X*EnterZone8*T*False$Z1_A*S*Z1_0_1*S*Z1_0_2*S*Z1_G*S*Z1_0_3*S*Z1_0_4*S*Z1_1_0*S*Z1_2_0*S*Z1_2_2*S*Z1_F*S*Z1_b*S*Z1_3_0*S*Z1_3_1*S*Z1_4_0*S*Z1_4_P*S*Z1_D*S*Z2_A*S*Z2_1_0*S*Z2_1_1*S*Z2_B*S*Z2_2_0*S*Z2_2_2*S*Z2_C*S*Z2_2_1*S*Z1_E*S*Z2_3_0*S*Z2_4_0*S*Z2_5_0*S*Z2_5_1*S*Z2_D*S*Z2_7_0*S*Z2_8_0*S*Z2_8_1*S*Z2_8_2*S*Z2_8_3*S*Z2_E*S*Z3_0_0$T"+ y +"$SL_FORCEFIELDLevel1$False#I#S21#I#4#I#250389113#I#0#I#False#IC#False#I#S22#I#4#I#2006624010#I#0#I#False#IC#False#I#B2#I#7#I#1953908284#I#0#I#True#IC#False#I##I#1#I#-1#I#0#I#False$HEROIC#ABG#$T" + y +"#ABG#$True$False$"
